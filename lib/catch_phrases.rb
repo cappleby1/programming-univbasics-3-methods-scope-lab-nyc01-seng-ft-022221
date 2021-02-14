@@ -11,10 +11,14 @@ def toadstool(status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   return status
 end
 
-def link(mario1 = mario, toadstool1 = toadstool)
-  puts mario1
-  puts toadstool1
+def link
   link_message = "It's Dangerous To Go Alone! Take This."
   puts link_message
   return link_message
+
+def all_phrases(mario1 = mario, toadstool1 = toadstool, link1 = link)
+  puts mario1
+  puts toadstool1
+  puts link1
+  
 end
