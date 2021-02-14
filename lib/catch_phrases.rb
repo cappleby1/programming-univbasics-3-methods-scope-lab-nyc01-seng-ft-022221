@@ -14,3 +14,7 @@ end
 def link(mario1 = mario, toadstool1 = toadstool)
   puts mario1
   puts toadstool1
+  link_message = "It's Dangerous To Go Alone! Take This."
+  puts link_message
+  return link_message
+end
