@@ -15,6 +15,7 @@ def link
   link_message = "It's Dangerous To Go Alone! Take This."
   puts link_message
   return link_message
+end
 
 def all_phrases(mario1 = mario, toadstool1 = toadstool, link1 = link)
   puts mario1
